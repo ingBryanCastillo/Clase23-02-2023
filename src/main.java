@@ -22,6 +22,7 @@ public class main {
         nuevaLista.InsertarNodo(10);
         nuevaLista.InsertarNodo(20);
         nuevaLista.InsertarNodo(30);
+        nuevaLista.ListarNodos();
 
         
     }
