@@ -13,7 +13,7 @@ public class Lista {
 Nodo primero;
 
 
-public void InsertarNodo(int dato)
+public void InsertarNodo(String dato)
 {
   Nodo nodoNuevo = new Nodo(dato);
   if(primero == null)

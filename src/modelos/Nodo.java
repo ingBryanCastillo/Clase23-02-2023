@@ -10,19 +10,19 @@ package modelos;
  * @author umg
  */
 public class Nodo {
-int dato;
+String dato;
 Nodo siguiente;
 
-    public Nodo(int dato) {
+    public Nodo(String dato) {
         this.dato = dato;
         this.siguiente=null;
     }
 
-    public int getDato() {
+    public String getDato() {
         return dato;
     }
 
-    public void setDato(int dato) {
+    public void setDato(String dato) {
         this.dato = dato;
     }
 
@@ -36,9 +36,7 @@ Nodo siguiente;
     
 
     
-    
-
-
+   
 
   
 }

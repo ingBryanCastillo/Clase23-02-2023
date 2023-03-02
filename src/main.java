@@ -1,5 +1,7 @@
 
-import modelos.Lista;
+import Controlador.nodoControlador;
+import Vista.frmPrincipal;
+import modelos.Nodo;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -17,14 +19,10 @@ public class main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        Lista nuevaLista = new Lista();
-        nuevaLista.InsertarNodo(10);
-        nuevaLista.InsertarNodo(20);
-        nuevaLista.InsertarNodo(30);
-        nuevaLista.ListarNodos();
-
-        
+        frmPrincipal VistaPrincipal = new frmPrincipal();
+        Nodo modeloNodo = new Nodo("");
+        nodoControlador controler = new nodoControlador(VistaPrincipal, modeloNodo);
+         
     }
     
 }
