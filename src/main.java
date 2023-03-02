@@ -11,7 +11,7 @@ import modelos.Nodo;
 
 /**
  *
- * @author umg
+ * @author BRYAN
  */
 public class main {
 
